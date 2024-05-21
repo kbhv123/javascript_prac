@@ -33,9 +33,13 @@ const getAPIData = (dino) => {
 
 }; 
 
+let swap = document.getElementById("test");
 
 document.querySelector('button').addEventListener('click', () => {
     const dino = document.querySelector('input[name="dinosaur"]:checked').value;
     getAPIData(dino);
+    
+    console.log(swap);
+    
 })
 
