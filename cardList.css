@@ -1,0 +1,10 @@
+.card-list {
+   display: flex;
+   flex-direction: column;
+   overflow-y: scroll;
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+}
+

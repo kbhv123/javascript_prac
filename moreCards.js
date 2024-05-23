@@ -1,28 +1,3 @@
-/*const card_data = [
-    
-    {
-        name: "Dinosaur",
-        size: "13mm"
-    }
-]*/
-
-const cardsRef = useRef();
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const card_data = [
-    
-        {
-            name: "Dinosaur",
-            size: "13mm"
-        },
-        {
-            name: "test",
-            size: "15mm"
-        }
-    ];
-
-
 const cardList = document.getElementById('card-list') 
 
 card_data.forEach((card, index) => {
@@ -45,6 +20,4 @@ card_data.forEach((card, index) => {
     cardList.appendChild(cardDiv);
 });
 
-
-});
 
