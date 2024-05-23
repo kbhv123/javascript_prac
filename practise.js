@@ -25,6 +25,10 @@ myFunction(); */
 }; */
 
 
+
+
+
+
 const getAPIData = (dino) => {
     fetch(`https://paleobiodb.org/data1.2/occs/list.json?rowcount&base_name=${dino}`)
     .then((data) => data.json())
